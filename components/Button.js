@@ -8,10 +8,14 @@ export default function Button(props) {
     const { text, dark } = props;
     return (
         <button className={
-            'rounded-full overflow-hidden duration-200 hover:opacity-80 border-2 border-solid ' + 
-            (dark ? 'text-white bg-gradient-to-r from-[#4a5568] to-[#2d3748] border-none' : 'text-[#2d3748] bg-gradient-to-r from-[#edf2f7] to-[#e2e8f0] border-none')
+            'relative rounded-full overflow-hidden duration-200 hover:opacity-60 border-2 ' +
+            (dark ? 
+                'text-white bg-gradient-to-r from-[#FF9A8B] via-[#FF6F91] to-[#C6A0C6] border-white shadow-md shadow-[#4a4a4a]' 
+                : 
+                'text-white bg-gradient-to-r from-[#FF9A8B] via-[#FF6F91] to-[#C6A0C6] border-transparent shadow-md shadow-[#4a4a4a]'
+            )
         }>
-            <p className={ 'px-6 sm:px-10 whitespace-nowrap py-2 sm:py-3 ' + fugaz.className}>
+            <p className={'px-6 sm:px-10 whitespace-nowrap py-2 sm:py-3 ' + fugaz.className}>
                 {text}
             </p>
         </button>
