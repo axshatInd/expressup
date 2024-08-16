@@ -9,12 +9,24 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const header = (
+    <header>
+
+    </header>
+  )
+
+  const footer = (
+    <footer>
+      
+    </footer>
+  )
+  
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header>header</header>
+        {header}
         {children}
-        <footer>footer</footer>
+        {footer}
       </body>
     </html>
   );
