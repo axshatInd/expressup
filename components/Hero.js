@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fugaz_One } from "next/font/google";
 import Button from "./Button";
+import Calendar from './Calendar';
 const fugaz = Fugaz_One({ subsets: ["latin"], weight: ['400'] }); 
 
 export default function Hero() {
@@ -16,6 +17,7 @@ export default function Hero() {
             <Button text="Login" dark /> {/* Login button with white border */}
             <Button text="Sign Up" /> {/* Sign Up button without border */}
         </div>
+        <Calendar/>
     </div>
   )
 }
