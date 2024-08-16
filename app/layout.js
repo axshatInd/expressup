@@ -17,8 +17,8 @@ export default function RootLayout({ children }) {
   )
 
   const footer = (
-    <footer className="p-4 sm:p-8">
-      asdas
+    <footer className="p-4 sm:p-8 grid place-items-center">
+      <p className={ 'font-semibold' + fugaz.className}> Created with ♡</p>
     </footer>
   )
   
@@ -31,4 +31,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+} 
