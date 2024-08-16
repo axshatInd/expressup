@@ -1,11 +1,14 @@
+import Hero from "@/components/Hero";
+import Main from "@/components/Main";
+
 export const metadata = {
   title: "ExpressUp ⋅ Home", 
 };
 
 export default function HomePage() {
   return (
-    <main className="">
-      
-    </main>
+    <Main className="">
+      <Hero />
+    </Main>
   );
 }
