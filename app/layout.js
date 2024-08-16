@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 
   const footer = (
     <footer className="p-4 sm:p-8 grid place-items-center">
-      <p className={ 'font-bold' + fugaz.className}> Created with ♡ <span className={ 'font-semibold' + fugaz.className}>by axshat.ind</span></p>
+      <p className={ 'text-red-600 font-bold' + fugaz.className}> Created with ♡ <span className={ 'text-indigo-600 font-semibold' + fugaz.className}>by axshat.ind</span></p>
     </footer>
   )
   
