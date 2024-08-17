@@ -35,8 +35,8 @@ export default function Calendar(props) {
 
               let isToday = dayIndex === now.getDate();
               let color = demo
-                ? gradients.indigo[baseRating[dayIndex]]
-                : dayIndex in data ? gradients.indigo[data[dayIndex]] : 'white';
+                ? gradients.amber[baseRating[dayIndex]]
+                : dayIndex in data ? gradients.amber[data[dayIndex]] : 'white';
 
               if (!dayDisplay) {
                 return (
@@ -49,12 +49,12 @@ export default function Calendar(props) {
                   style={{ background: color }}
                   className={
                     'text-xs sm:text-sm border p-2 flex items-center justify-center rounded-lg' +
-                    (isToday ? ' border-indigo-400' : ' border-indigo-100') +
-                    (color === 'white' ? ' text-indigo-400' : ' text-white')
+                    (isToday ? ' border-red-400' : ' border-red-100') +
+                    (color === 'white' ? ' text-black-400' : ' text-white')
                   }
                   key={dayOfWeekIndex}
                 >
-                  <p>{dayIndex}</p>
+                  <p className="font-semibold">{dayIndex}</p>
                 </div>
               );
             })}
