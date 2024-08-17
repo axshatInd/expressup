@@ -24,10 +24,10 @@ export default function Calendar(props) {
   const numRows = Math.floor(daysToDisplay / 7) + (daysToDisplay % 7 ? 1 : 0);
 
   return (
-    <div className="flex flex-col overflow-hidden gap-1">
+    <div className='flex flex-col overflow-hidden gap-1 py-4 sm:py-6 md:py-10'>
       {[...Array(numRows).keys()].map((row, rowIndex) => {
         return (
-          <div key={rowIndex} className="grid grid-cols-7 gap-1">
+          <div key={rowIndex} className='grid grid-cols-7 gap-1'>
             {dayList.map((dayOfWeek, dayOfWeekIndex) => {
               let dayIndex = (rowIndex * 7) + dayOfWeekIndex - (firstDayOfMonth - 1);
 
@@ -54,7 +54,7 @@ export default function Calendar(props) {
                   }
                   key={dayOfWeekIndex}
                 >
-                  <p className="font-semibold">{dayIndex}</p>
+                  <p className='font-semibold'>{dayIndex}</p>
                 </div>
               );
             })}
