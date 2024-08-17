@@ -14,7 +14,7 @@ export default function Dashboard() {
     '&*@#*': '🤬',
     'Sad': '😭',
     'Just Existing': '😮‍💨',
-    'Good': '😄',
+    'Good': '🥰',
     'Elated': '😍',
   }
 
