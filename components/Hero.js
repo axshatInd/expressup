@@ -6,7 +6,7 @@ const fugaz = Fugaz_One({ subsets: ["latin"], weight: ['400'] });
 
 export default function Hero() {
   return (
-    <div className='py-4 md:py-10 flex flex-col gap-4 sm:gap-8'>
+    <div className='py-4 md:py-10 flex flex-col gap-8 sm:gap-10'>
         <h1 className={'text-5xl sm:text-6xl md:text-7xl text-center ' + fugaz.className}>
             <span className='textGradient'>ExpressUp</span> lets you record your <span className='textGradient'>Daily Mood!</span>
         </h1>
@@ -17,7 +17,7 @@ export default function Hero() {
             <Button text="Login" dark /> {/* Login button with white border */}
             <Button text="Sign Up" /> {/* Sign Up button without border */}
         </div>
-        <Calendar/>
+        <Calendar demo/>
     </div>
   )
 }

@@ -8,7 +8,7 @@ export default function Button(props) {
     const { text, dark, full } = props;
     return (
         <button className={
-            'relative rounded-full overflow-hidden duration-200 hover:opacity-60 border-2 ' +
+            'rounded-full overflow-hidden duration-200 hover:opacity-60 border-2 ' +
             (dark ? 
                 'text-white bg-gradient-to-r from-[#FDBB2D] via-[#FF9A00] to-[#FFD700] border-white shadow-md shadow-[#4a4a4a]' 
                 : 
