@@ -39,9 +39,9 @@ export default function Login() {
       <h3 className={"text-4xl sm:text-5xl md:text-6xl " + fugaz.className}>
         {isRegister ? "Register" : "Login"}
       </h3>
-      <p>You're one step away!</p>
+      <p>You&apos;re one step away!</p>
       <input
-        vlaue={email}
+        value={email}
         onChange={(e) => {
           setEmail(e.target.value);
         }}
@@ -49,7 +49,7 @@ export default function Login() {
         placeholder="Email"
       />
       <input
-        vlaue={password}
+        value={password}
         onChange={(e) => {
           setPassword(e.target.value);
         }}
@@ -66,7 +66,9 @@ export default function Login() {
         />
       </div>
       <p className="text-center">
-        {isRegister ? "Already have an account?" : "Don't have an account?"}{" "}
+        {isRegister
+          ? "Already have an account?"
+          : "Don&apos;t have an account?"}{" "}
         <button
           onClick={() => setIsRegister(!isRegister)}
           className="text-indigo-600"
