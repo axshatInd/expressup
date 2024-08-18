@@ -108,13 +108,14 @@ export default function Dashboard() {
                 {status.replaceAll("_", " ")}
               </p>
               <p className={"text-base sm:text-lg truncate " + fugaz.className}>
+                {status === "num_days" ? "🔥 " : ""}
                 {statuses[status]}
-                {status === "num_days" ? " 🔥" : ""}
               </p>
             </div>
           );
         })}
       </div>
+
       <h4
         className={
           "text-5xl sm:text-6xl md:text-7xl text-center " + fugaz.className
