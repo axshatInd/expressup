@@ -6,7 +6,7 @@ Here's a detailed and visually appealing README template for your ExpressUp proj
 
 ExpressUp is a dynamic web application designed to streamline and optimize task management and version control using **Firebase** for real-time updates and secure data handling. Whether you're an individual or a team, ExpressUp enables you to efficiently organize your work, track progress, and manage multiple projects in one place.
 
-![Screenshot from 2024-08-19 01-55-18](https://github.com/user-attachments/assets/fe9263e4-569f-4dbf-b1b9-da79aacf0098)
+![Screenshot from 2024-08-19 01-55-18](https://github.com/user-attachments/assets/4a0212f2-a45e-4c4b-a9cf-51fc3b6eaacc)
 
 
 ## 🌟 Features
