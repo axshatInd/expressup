@@ -5,7 +5,7 @@ Here's a detailed and visually appealing README template for your ExpressUp proj
 # ExpressUp
 
 
-![Screenshot from 2024-08-19 01-55-18](https://github.com/user-attachments/assets/4a0212f2-a45e-4c4b-a9cf-51fc3b6eaacc)
+![Screenshot_2024-08-19-03-37-52-585_com brave browser](https://github.com/user-attachments/assets/5164a583-e1f2-4e8f-a742-54249782dc69)
 
 
 ## 🌟 Features
