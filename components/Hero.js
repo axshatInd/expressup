@@ -17,7 +17,7 @@ export default function Hero() {
         <span className="textGradient">ExpressUp</span> lets you record your{" "}
         <span className="textGradient">Daily Mood!</span>
       </h1>
-      <p className="text-lg sm:text-xl md:text-2xl text-center w-full mx-auto max-w-[600px] font-semibold textGradient2">
+      <p className="text-lg sm:text-xl md:text-2xl text-center w-full mx-auto max-w-[600px] font-semibold textGradient">
         "Every Day Tells a Story,{" "}
         <span className="text-indigo-600 font-semibold textGradient">
           What's Yours?

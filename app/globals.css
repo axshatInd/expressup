@@ -4,11 +4,12 @@
 
 .textGradient {
   background: -webkit-linear-gradient(
-    #89cff0,
-    #ffd700,
-    #ff7043,
-    #6a0dad,
-    #0d47a1
+    45deg,
+    #8e2de2,
+    /* Purple */ #4a00e0,
+    /* Deep Purple */ #2b2b2b,
+    /* Dark Grey */ #232526,
+    /* Almost Black */ #414345 /* Light Grey */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
