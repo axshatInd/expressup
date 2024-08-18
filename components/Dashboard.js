@@ -105,7 +105,7 @@ export default function Dashboard() {
 
       <div className='flex items-stretch flex-wrap gap-4'>
         {Object.keys(moods).map((mood, moodIndex) => (
-          <button OnClick={() => {const currentMoodValue = moodIndex + 1 
+          <button onClick={() => {const currentMoodValue = moodIndex + 1 
             handleSetMood(currentMoodValue)}}
             className={'p-4 px-5 rounded-2xl purpleShadow duration-200 bg-indigo-50 hover:bg-[lavender] text-center flex flex-col items-center gap-2 flex-1'} 
             key={moodIndex}>
