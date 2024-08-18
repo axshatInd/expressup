@@ -3,6 +3,7 @@ import "./globals.css";
 import Link from "next/link";
 import { AuthProvider } from "@/context/AuthContext";
 import Head from "./head";
+import Logout from "@/components/Logout";
 
 const opensans = Open_Sans({ subsets: ["latin"] }); 
 const fugaz = Fugaz_One({ subsets: ["latin"],weight: ['400'] }); 
@@ -20,15 +21,14 @@ export default function RootLayout({ children }) {
       <Link href={'/'}>
         <h1 className={'text-base sm:text-lg textGradient ' + fugaz.className}>ExpressUp</h1>
       </Link>
+      <Logout/>
       
-      <div className="flex items-center justify-between">
-        PLACEHOLDER
-      </div>
     </header>
   )
 
   const footer = (
     <footer className="p-4 sm:p-8 grid place-items-center">
+      <Link href={'https://www.linkedin.com/in/axshatind/'} target="_blank" className=""></Link>
       <p className={ 'text-red-200 font-bold duration-200 hover:text-white hover:bg-indigo-500' + fugaz.className}> &#169; axshat.ind</p>
     </footer>
   )
