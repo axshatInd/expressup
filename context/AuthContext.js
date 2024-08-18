@@ -13,7 +13,7 @@ export function useAuth(){
 
 export function AuthProvider({ children }) {
     const [currentUser, setCurrentUser] = useState(null)
-    const [userDataObj, setUserDataObj] = useState({})
+    const [userDataObj, setUserDataObj] = useState(null)
     const [loading, setLoading] = useState(true)
 
     //AUTH HANDLERS
@@ -26,7 +26,7 @@ export function AuthProvider({ children }) {
     }
 
     function logout() {
-        setUserDataObj({})
+        setUserDataObj(null)
         setCurrentUser(null)
         return signOut(auth)
     }
@@ -69,6 +69,7 @@ export function AuthProvider({ children }) {
     const value = {
         currentUser,
         userDataObj,
+        setUserDataObj,
         signup,
         logout,
         login,
