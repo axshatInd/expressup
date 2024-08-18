@@ -5,7 +5,7 @@ Here's a detailed and visually appealing README template for your ExpressUp proj
 # ExpressUp
 
 <p>
-<img src="https://github.com/user-attachments/assets/d171f425-cc6d-4e94-8995-0da3f5a18559" alt="Description" width="500" height="500"> <img src="https://github.com/user-attachments/assets/0f38e42a-b397-4bb9-b91b-ec41f8116510" alt="Description" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/d171f425-cc6d-4e94-8995-0da3f5a18559" alt="Description" width="500" height="500"> <img src="https://github.com/user-attachments/assets/2c290563-2dde-40f3-9ae9-6697e41296be" alt="Description" width="500" height="500">
 
 </p>
 
