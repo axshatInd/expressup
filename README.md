@@ -5,7 +5,7 @@ Here's a detailed and visually appealing README template for your ExpressUp proj
 # ExpressUp
 
 <p>
-<img src="https://github.com/user-attachments/assets/d171f425-cc6d-4e94-8995-0da3f5a18559" alt="Description" width="800" height="600"> <img src="https://github.com/user-attachments/assets/2c290563-2dde-40f3-9ae9-6697e41296be" alt="Description" width="800" height="600">
+<img src="https://github.com/user-attachments/assets/d171f425-cc6d-4e94-8995-0da3f5a18559" alt="Description" width="1000" height="600"> <img src="https://github.com/user-attachments/assets/2c290563-2dde-40f3-9ae9-6697e41296be" alt="Description" width="1000" height="600">
 
 </p>
 
@@ -77,9 +77,9 @@ This project is licensed under the MIT License.
 ---
 
 ## 📸 Screenshots
-<p><img src="https://github.com/user-attachments/assets/d215c52e-49c1-4684-9bcd-16a741c7f7a0" alt="Description" width="300" height="300">
-<img src="https://github.com/user-attachments/assets/0507fa77-71bf-49d7-8cc5-ffa8dd682f99" alt="Description" width="300" height="300">
-<img src="https://github.com/user-attachments/assets/ef17a9d4-e638-48fe-b2b0-eddc80ab5829" alt="Description" width="300" height="300">
+<p><img src="https://github.com/user-attachments/assets/d215c52e-49c1-4684-9bcd-16a741c7f7a0" alt="Description" width="333" height="300">
+<img src="https://github.com/user-attachments/assets/0507fa77-71bf-49d7-8cc5-ffa8dd682f99" alt="Description" width="333" height="300">
+<img src="https://github.com/user-attachments/assets/ef17a9d4-e638-48fe-b2b0-eddc80ab5829" alt="Description" width="333" height="300">
 </p>
 
 
