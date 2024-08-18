@@ -15,6 +15,19 @@
   -webkit-text-fill-color: transparent;
 }
 
+.textGradient3 {
+  background: -webkit-linear-gradient(
+    45deg,
+    #6a11cb,
+    /* Deep Blue */ #2575fc,
+    /* Sky Blue */ #03a9f4,
+    /* Bright Blue */ #00c6ff,
+    /* Aqua Blue */ #8e2de2 /* Purple */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .textGradient2 {
   background: -webkit-linear-gradient(#4338ca, #818cf8);
   -webkit-background-clip: text;
