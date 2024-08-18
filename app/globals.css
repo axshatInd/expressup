@@ -3,17 +3,28 @@
 @tailwind utilities;
 
 .textGradient {
-    background: -webkit-linear-gradient(#89CFF0, #FFD700, #FF7043, #6A0DAD, #0D47A1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(
+    #89cff0,
+    #ffd700,
+    #ff7043,
+    #6a0dad,
+    #0d47a1
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textGradient2 {
+  background: -webkit-linear-gradient(#4338ca, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .purpleShadow {
-    box-shadow: 3px 3px 1px 1px lavender;
+  box-shadow: 3px 3px 1px 1px lavender;
 }
 
 .purpleShadow:hover {
-    transform: translate(3px, 3px);
-    box-shadow: 0px 0px 1px 1px lavender;
-
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px 1px 1px lavender;
 }

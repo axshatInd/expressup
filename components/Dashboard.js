@@ -76,10 +76,10 @@ export default function Dashboard() {
   }
 
   const moods = {
-    "&*@#$": "😭",
-    Sad: "🥲",
-    Existing: "😶",
-    Good: "😊",
+    "Don't Ask": "😭",
+    Sad: "🥹",
+    Existing: "😮‍💨",
+    Good: "🤭",
     Elated: "😍",
   };
 
