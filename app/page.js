@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import Main from "@/components/Main";
 
 export const metadata = {
-  title: "ExpressUp ⋅ Home", 
+  title: "ExpressUp ⋅ Home",
 };
 
 export default function HomePage() {
