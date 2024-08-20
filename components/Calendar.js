@@ -83,7 +83,7 @@ export default function Calendar(props) {
           {dayList.map((day, index) => (
             <div
               key={index}
-              className="bg-gradient-to-r from-gray-700 to-gray-500 text-white p-2 font-bold rounded-lg shadow-lg"
+              className="bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 p-2 font-bold rounded-lg shadow-sm"
             >
               {day[0]}
             </div>
