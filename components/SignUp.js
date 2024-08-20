@@ -4,17 +4,16 @@ import React, { useState } from "react";
 import Button from "./Button";
 import { useAuth } from "@/context/AuthContext";
 import { useRouter } from "next/navigation"; // Import useRouter from 'next/navigation'
-import Link from "next/link"; // Import Link correctly
+import Link from "next/link"; // Make sure Link is imported
 
 const fugaz = Fugaz_One({ subsets: ["latin"], weight: ["400"] });
 
-export default function Login() {
+export default function SignUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [isRegister, setIsRegister] = useState(false);
   const [authenticating, setAuthenticating] = useState(false);
 
-  const { signup, login } = useAuth();
+  const { signup } = useAuth();
   const router = useRouter(); // Initialize useRouter
 
   async function handleSubmit() {
@@ -24,14 +23,9 @@ export default function Login() {
     setAuthenticating(true);
 
     try {
-      if (isRegister) {
-        console.log("Signing up a new user");
-        await signup(email, password);
-      } else {
-        console.log("Logging in existing user");
-        await login(email, password);
-      }
-      router.push("/dashboard"); // Redirect to dashboard after login
+      console.log("Signing up a new user");
+      await signup(email, password);
+      router.push("/dashboard"); // Redirect to dashboard after sign up
     } catch (err) {
       console.log(err.message);
     } finally {
@@ -42,7 +36,7 @@ export default function Login() {
   return (
     <div className="flex flex-col flex-1 justify-center items-center gap-4">
       <h3 className={"text-4xl sm:text-5xl md:text-6xl " + fugaz.className}>
-        {isRegister ? "Register" : "Login"}
+        Register
       </h3>
       <p>You&apos;re one step away!</p>
       <input
@@ -66,12 +60,9 @@ export default function Login() {
         />
       </div>
       <p className="text-center">
-        {isRegister ? "Already have an account? " : "Don't have an account? "}
-        <Link
-          href={isRegister ? "/login" : "/signup"}
-          className="text-indigo-600"
-        >
-          {isRegister ? "Sign in" : "Sign up"}
+        Already have an account?{" "}
+        <Link href="/login" className="text-indigo-600">
+          Sign in
         </Link>
       </p>
     </div>
