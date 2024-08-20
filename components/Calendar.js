@@ -79,6 +79,16 @@ export default function Calendar(props) {
         </button>
       </div>
       <div className="flex flex-col gap-1 py-4 sm:py-6 md:py-10">
+        <div className="grid grid-cols-7 gap-1 text-center text-xs font-semibold">
+          {dayList.map((day, index) => (
+            <div
+              key={index}
+              className="bg-gradient-to-r from-gray-700 to-gray-500 text-white p-2 font-bold rounded-lg shadow-lg"
+            >
+              {day[0]}
+            </div>
+          ))}
+        </div>
         {[...Array(numRows)].map((_, rowIndex) => (
           <div key={rowIndex} className="grid grid-cols-7 gap-1">
             {dayList.map((_, dayOfWeekIndex) => {
