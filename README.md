@@ -67,9 +67,3 @@ This project is licensed under the MIT License.
 **Created with ❤️ by Akshat Saini (https://github.com/axshatInd)**
 
 ---
-
-
-
----
-
-This README provides a clear description, features, setup instructions, and an invitation for contributions. You can customize it further with project-specific details and visuals. Let me know if you need more adjustments!
