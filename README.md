@@ -3,7 +3,7 @@
 
 ## ExpressUp
 
-## 🌟 Features
+## Features
 
 - **Real-Time Sync**: Automatically synchronize your progress across devices using Firebase.
 - **Version Control Integration**: Keep track of your project versions seamlessly.
